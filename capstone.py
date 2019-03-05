@@ -1,8 +1,8 @@
 import random
 
 
-def randomIndex():
-    index = random.randint(1,10)
+def randomIndex(length):
+    index = random.randint(1,length)
     print(index)
 
-randomIndex()
+randomIndex(400)
