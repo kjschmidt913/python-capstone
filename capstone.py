@@ -34,11 +34,7 @@ allData = {'Sweetener': {
 
 def randomIndex(length):
     index = random.randint(1, length)
-    print(index)
-
-
-randomIndex(400)
-
+    return index
 
 def chooseSong():
     albumPick = random.choice(list(allData.keys()))
