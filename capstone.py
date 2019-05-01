@@ -2,7 +2,7 @@ import random
 
 allData = {'Sweetener': {
     'raindrops (an angel cried)': ['When raindrops fell down from the sky',
-                                   'The day you left me', 'an angel cried',
+                                   'The day you left me, an angel cried',
                                    'Oh, she cried, an angel cried',
                                    'She cried'],
     'blazed': ['There is something between us, I can see it right now',
@@ -297,17 +297,16 @@ allData = {'Sweetener': {
              'I\'d rather be alone tonight',
              'You can say "I love you" through the phone tonight'
 
-
              ],
-    'bloodline': 'lyrics here',
-    'fake smile': 'lyrics here',
-    'bad idea': 'lyrics here',
-    'make up': 'lyrics here',
-    'ghostin': 'lyrics here',
-    'in my head': 'lyrics here',
-    '7 rings': 'lyrics here',
-    'thank u, next': 'lyrics here',
-    'break up with your girlfriend, i\'m bored': 'lryics here'
+    # 'bloodline': 'lyrics here',
+    # 'fake smile': 'lyrics here',
+    # 'bad idea': 'lyrics here',
+    # 'make up': 'lyrics here',
+    # 'ghostin': 'lyrics here',
+    # 'in my head': 'lyrics here',
+    # '7 rings': 'lyrics here',
+    # 'thank u, next': 'lyrics here',
+    # 'break up with your girlfriend, i\'m bored': 'lryics here'
 }
 }
 
@@ -322,6 +321,15 @@ def chooseSong():
     print(albumPick)
     songPick = random.choice(list(allData[albumPick].keys()))
     print(songPick)
+
+    lyricIndex = randomIndex(len(allData[albumPick][songPick]) -1)
+
+    lyric1 = allData[albumPick][songPick][lyricIndex]
+    lyric2 = allData[albumPick][songPick][lyricIndex + 1]
+
+    lyrics = lyric1 + '\n' + lyric2
+
+    print(lyrics)
 
 
 chooseSong()
