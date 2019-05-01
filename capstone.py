@@ -327,7 +327,7 @@ def chooseSong():
     lyric1 = allData[albumPick][songPick][lyricIndex]
     lyric2 = allData[albumPick][songPick][lyricIndex + 1]
 
-    lyrics = lyric1 + '\n' + lyric2
+    lyrics = allData[albumPick][songPick][lyricIndex] + '\n' + allData[albumPick][songPick][lyricIndex + 1]
 
     print(lyrics)
 
