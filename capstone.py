@@ -189,8 +189,116 @@ allData = {'Sweetener': {
                 'Imagine, imagine'
 
                 ],
-    'needy': 'lyrics here',
-    'NASA': 'lyrics here',
+    'needy': ['If you take too long to hit me back',
+              'I can\'t promise you how I\'ll react',
+              'But all I can say',
+              'Is at least I\'ll wait for you',
+
+              'Lately I\'ve been on a roller coaster',
+              'Tryna get a hold of my emotions',
+              'But all that I know',
+              'Is I need you close',
+
+              'And I\'ma scream and shout for what I love',
+              'Passionate, but I don\'t give no fucks',
+              'I admit that I\'m a lil\' messed up',
+              'But I can hide it when I\'m all dressed up',
+
+              'I\'m obsessive and I love too hard',
+              'Good at overthinking with my heart',
+              'How you even think it got this far?',
+              'This far',
+
+              'And I can be needy, way too damn needy',
+              'I can be needy, tell me how good it feels to be needed',
+              'I can be needy, so hard to please me',
+              'I know it feels so good to be needed',
+
+              'Sorry if I\'m up and down a lot (Yeah)',
+              'Sorry that I think I\'m not enough',
+              'And sorry if I say "sorry" way too much',
+
+              'You can go ahead and call me selfish (Selfish)',
+              'But after all this damage, I can\’t help it (Help it)',
+              'But what you can trust is I need your touch',
+
+              'I\'ma scream and shout for what I love',
+              'Passionate, but I don\'t give no fucks',
+              'I admit that I\'m a lil\' messed up',
+              'But I can hide it when I\'m all dressed up',
+
+              'I\'m obsessive and I love too hard',
+              'Good at overthinking with my heart',
+              'How you even think it got this far?',
+              'This far',
+
+              'And I can be needy, way too damn needy',
+              'I can be needy, tell me how good it feels to be needed',
+              'I can be needy, so hard to please me',
+              'I know it feels so good to be needed',
+              ],
+    'NASA': ['This is one small step for woman',
+             'One giant leap for woman-kind',
+
+             'I\'d rather be alone tonight',
+             'You can say "I love you" through the phone tonight',
+             'Really don\'t wanna be in your arms tonight',
+             'I\'ll just use my covers to stay warm tonight',
+             'Think I\'m better off here all alone tonight',
+             'Ain\'t no checkin\' on when I get home tonight',
+             'Just makin\' sure I\'m good on my own tonight',
+             'Even though there isn\'t nothin\' wrong tonight',
+
+             'Yeah, I\'m just sayin\', baby',
+             'I can\'t really miss you if I\'m with you',
+             'And when I miss you, it\'ll change the way I kiss you',
+             'Baby, you know time apart is beneficial',
+             'It\'s like I\'m the universe and you\'ll be N-A-S-A',
+
+             'Give you the whole world, I\'ma need space',
+             'I\'ma need space, I\'ma, I\'ma need',
+             'You know I\'m a star; space, I\'ma need space',
+             'I\'ma need space, I\'ma, I\'ma need space (N-A-S-A)',
+             'Give you the whole world, I\'ma need space',
+             'I\'ma need space, I\'ma, I\'ma need',
+             'You know I\'m a star; space, I\'ma need space',
+             'I\'ma need space, I\'ma, I\'ma need space (N-A-S-A)',
+
+             'Bottom line',
+             'Usually, I would love it if you stayed the night',
+             'I just think I\'m on another page tonight',
+             'It ain\'t nothing wrong with saying I need me time',
+
+             'Usually, I would orbit around you',
+             'But gravity seems to be the only thing that\'s pulling me',
+             'You\'ll be my rise and shine soon as them stars align, mmm',
+
+             'Baby, I can\'t really miss you if I\'m with you',
+             'And when I miss you, it\'ll change the way I kiss you',
+             'Baby, you know time apart is beneficial',
+             'It\'s like I\'m the universe and you\'ll be N-A-S-A',
+
+             'Give you the whole world, I\'ma need space',
+             'I\'ma need space, I\'ma, I\'ma need',
+             'You know I\'m a star; space, I\'ma need space',
+             'I\'ma need space, I\'ma, I\'ma need space (N-A-S-A)',
+             'Give you the whole world, I\'ma need space',
+             'I\'ma need space, I\'ma, I\'ma need',
+             'You know I\'m a star; space, I\'ma need space',
+             'I\'ma need space, I\'ma, I\'ma need space (N-A-S-A)',
+
+             'You don\'t wanna leave me, but I\'m tryna self-discover',
+             'Keep me in your orbit and you know you\'ll drag me under',
+             'You don\'t wanna leave me, but I\'m tryna self-discover',
+             '(You don\'t wanna leave me, but I\'m tryna self-discover)',
+             'Keep me in your orbit and you know you\'ll drag me under',
+             '(Keep me in your orbit and you know you\'ll drag me under)',
+
+             'I\'d rather be alone tonight',
+             'You can say "I love you" through the phone tonight'
+
+
+             ],
     'bloodline': 'lyrics here',
     'fake smile': 'lyrics here',
     'bad idea': 'lyrics here',
