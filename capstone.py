@@ -304,7 +304,114 @@ allData = {'Sweetener': {
     # 'make up': 'lyrics here',
     # 'ghostin': 'lyrics here',
     # 'in my head': 'lyrics here',
-    # '7 rings': 'lyrics here',
+    '7 rings': ['Yeah',
+                'Breakfast at Tiffany\'s and bottles of bubbles',
+                'Girls with tattoos who like getting in trouble',
+                'Lashes and diamonds, ATM machines',
+                'Buy myself all of my favorite things',
+
+                'Yeah',
+                'Been through some bad shit, I should be a sad bitch',
+                'Who would have thought it\'d turn me to a savage?',
+                'Rather be tied up with cuffs and not strings',
+                'Write my own checks like I write what I sing',
+
+                'My wrist, stop watchin\'',
+                'My neck is flossin\'',
+                'Make big deposits',
+                'My gloss is poppin\'',
+
+                'You like my hair?',
+                'Gee, thanks! Just bought it',
+                'I see it, I like it',
+                'I want it, I got it',
+                'Yeah',
+
+                'I want it, I got it',
+                'I want it, I got it',
+                'I want it, I got it',
+                'I want it, I got it',
+
+                'You like my hair?',
+                'Gee, thanks! Just bought it',
+                'I see it, I like it',
+                'I want it, I got it',
+                'Yeah',
+
+                'Wearin\' a ring but ain\'t gon\' be no "Mrs."',
+                'Bought matching diamonds for six of my bitches',
+                'I\'d rather spoil all my friends with my riches',
+                'Think retail therapy my new addiction',
+
+                'Whoever said money can\'t solve your problems',
+                'Must not have had enough money to solve \'em',
+                'They say, "Which one?" I say, "Nah, I want all \'em."',
+                'Happiness is the same price as "red-bottoms"',
+
+                'My smile is beamin\'',
+                'My skin is gleamin\'',
+                'The way it shine',
+                'I know you\'ve seen it',
+                'You\'ve seen it',
+
+                'I bought a crib',
+                'Just for the closet',
+                'Both his and hers',
+                'I want it, I got it',
+                'Yeah',
+
+                'I want it, I got it',
+                'I want it, I got it',
+                'I want it, I got it',
+                'I want it, I got it',
+                'Baby',
+
+                'You like my hair?',
+                'Gee, thanks! Just bought it',
+                'I see it, I like it',
+                'I want it, I got it',
+                'Yep',
+
+                'Yeah, my receipts be lookin\' like phone numbers',
+                'If it ain\'t money, then wrong number',
+                'Black Card is my business card',
+                'The way it be settin\' the tone for me',
+
+                'I don\'t mean to brag',
+                'But I be like, "Put it in the bag."',
+                'Yeah',
+                'When you see them racks',
+                'They stacked up like my ass',
+                'Yeah',
+
+                'Shoot',
+                'Go from the store to the booth',
+                'Make it all back in one loop',
+                'Gimme the loot',
+                'Never mind, I got the juice',
+                'Nothin\' but net when we shoot',
+
+                'Look at my neck',
+                'Look at my jet',
+                'Ain\'t got enough money to pay me respect',
+                'Ain\'t no budget when I\'m on the set',
+                'If I like it then that\'s what I get',
+                'Yeah',
+
+                'I want it, I got it',
+                'I want it, I got it',
+                'Yeah',
+                'I want it, I got it',
+                'I want it, I got it',
+                'Oh, yeah, yeah',
+
+                'You like my hair?',
+                'Gee, thanks! Just bought it',
+                'I see it, I like it',
+                'I want it, I got it',
+                'Yeah'
+
+                ],
     # 'thank u, next': 'lyrics here',
     # 'break up with your girlfriend, i\'m bored': 'lryics here'
 }
@@ -322,9 +429,10 @@ def chooseSong():
     songPick = random.choice(list(allData[albumPick].keys()))
     print(songPick)
 
-    lyricIndex = randomIndex(len(allData[albumPick][songPick]) -1)
+    lyricIndex = randomIndex(len(allData[albumPick][songPick]) - 1)
 
-    lyrics = allData[albumPick][songPick][lyricIndex] + '\n' + allData[albumPick][songPick][lyricIndex + 1]
+    lyrics = allData[albumPick][songPick][lyricIndex] + \
+        '\n' + allData[albumPick][songPick][lyricIndex + 1]
 
     print(lyrics)
 
