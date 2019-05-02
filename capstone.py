@@ -312,7 +312,7 @@ allData = {'Sweetener': {
 
 
 def randomIndex(length):
-    index = random.randint(1, length)
+    index = random.randint(0, length)
     return index
 
 
@@ -323,9 +323,6 @@ def chooseSong():
     print(songPick)
 
     lyricIndex = randomIndex(len(allData[albumPick][songPick]) -1)
-
-    lyric1 = allData[albumPick][songPick][lyricIndex]
-    lyric2 = allData[albumPick][songPick][lyricIndex + 1]
 
     lyrics = allData[albumPick][songPick][lyricIndex] + '\n' + allData[albumPick][songPick][lyricIndex + 1]
 
