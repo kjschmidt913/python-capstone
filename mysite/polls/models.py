@@ -122,7 +122,7 @@ class Songs():
                    '\'Cause you\'re such a dream (does this end?)',
                    'If you can believe, you\'re such a dream to me',
                    'To me, mmm, boy, to me'
-                   ]
+                   ],
         'God is a woman': ['You, you love it how I move you',
                            'You love it how I touch you',
                            'My one, when all is said and done',
