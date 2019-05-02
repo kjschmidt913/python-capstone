@@ -17,7 +17,7 @@ allData = {'Sweetener': {
                'Could\'ve been anywhere, but you\'re here with me',
                'Should I play lotto? What\'s it worth?',
                'I must be on, so clear to me',
-               'Once I have you, I will never let you, never let you,'
+               'Once I have you, I will never let you, never let you,',
                'Once I have you, I will never let you, never let you go',
                'Never let you, never let you go',
                'Never let you, never let you go',
@@ -26,7 +26,7 @@ allData = {'Sweetener': {
                'There is something between us, I can see it right now',
                'Your magnetic demeanor, that\'s something can\'t be found',
                '(I thought that I was dreaming \'til my love came around)',
-               '(Now I just come on over, show you how we get down)'
+               '(Now I just come on over, show you how we get down)',
                'Shawty, you can get blazed',
                'Look at you, love, you are the same',
                'You have a light you cannot hide',
@@ -219,7 +219,7 @@ allData = {'Sweetener': {
               'And sorry if I say "sorry" way too much',
 
               'You can go ahead and call me selfish (Selfish)',
-              'But after all this damage, I can\’t help it (Help it)',
+              'But after all this damage, I can\'t help it (Help it)',
               'But what you can trust is I need your touch',
 
               'I\'ma scream and shout for what I love',
@@ -304,13 +304,11 @@ allData = {'Sweetener': {
     # 'make up': 'lyrics here',
     # 'ghostin': 'lyrics here',
     # 'in my head': 'lyrics here',
-    '7 rings': ['Yeah',
-                'Breakfast at Tiffany\'s and bottles of bubbles',
+    '7 rings': ['Breakfast at Tiffany\'s and bottles of bubbles',
                 'Girls with tattoos who like getting in trouble',
                 'Lashes and diamonds, ATM machines',
                 'Buy myself all of my favorite things',
 
-                'Yeah',
                 'Been through some bad shit, I should be a sad bitch',
                 'Who would have thought it\'d turn me to a savage?',
                 'Rather be tied up with cuffs and not strings',
