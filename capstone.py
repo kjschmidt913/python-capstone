@@ -429,7 +429,7 @@ def chooseSong():
     songPick = random.choice(list(allData[albumPick].keys()))
     print(songPick)
 
-    lyricIndex = randomIndex(len(allData[albumPick][songPick]) - 1)
+    lyricIndex = randomIndex(len(allData[albumPick][songPick]) - 2)
 
     lyrics = allData[albumPick][songPick][lyricIndex] + \
         '\n' + allData[albumPick][songPick][lyricIndex + 1]
@@ -438,3 +438,4 @@ def chooseSong():
 
 
 chooseSong()
+
