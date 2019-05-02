@@ -23,13 +23,15 @@ def chooseSong():
 
 
 def index(request):
-    # latest_question_list = Question.objects.order_by('-pub_date')[:5]
-
-    
-
     template = loader.get_template('polls/index.html')
-    context = {
 
-        'Song': chooseSong()
+    albumPick = random.choice(list(Songs.allData.keys()))
+    songPick = random.choice(list(Songs.allData[albumPick].keys()))
+
+    lyricIndex = randomIndex(len(Songs.allData[albumPick][songPick]) - 2)
+    context = {
+        'Song': chooseSong(),
+        'Lyric_One': Songs.allData[albumPick][songPick][lyricIndex] ,
+        'Lyric_Two' : Songs.allData[albumPick][songPick][lyricIndex + 1]
     }
     return HttpResponse(template.render(context, request))

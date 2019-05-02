@@ -1,9 +1,11 @@
-{% if latest_question_list %}
-    <ul>
-    {% for question in latest_question_list %}
-        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>{{ Song }}</p>
-{% endif %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<div class="container ">
+    <div class="col-8 mx-auto mt-5">
+        <p class="d-block mb-2">{{ Lyric_One }}</p>
+        <p>{{ Lyric_Two }}</p>
+        
+    </div>
+</div>
