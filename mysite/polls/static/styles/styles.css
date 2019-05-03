@@ -5,14 +5,17 @@
     right: 0;
     margin: auto;
     text-align: center;
-    font-size: 25px;
-    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+    z-index: 1;
+    text-shadow: 1px 1px 2px #FFFFFF, 0 0 25px #FFFFFF, 0 0 5px #FFFFFF;
+    font-weight: 900;
+
+
 }
 
 .fixed-width{
     width: 100%;
 }
 
-.img-90{
-    width: 90%;
+img{
+    opacity: .75
 }

@@ -5,8 +5,9 @@ class InspoImg():
     imageNames = ['hiker.jpg',
                   'maxresdefault.jpg',
                   'inspiring-background-images-17.jpg',
-                  'wall.jpg',
-                  'mountains.jpg'
+                  
+                  'mountains.jpg',
+                  'space1.jpg'
                   ]
 
 
