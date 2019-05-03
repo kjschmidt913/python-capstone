@@ -1,5 +1,8 @@
 from django.db import models
 
+class InspoImg():
+    imageNames = ['kingcake.jpg']
+
 
 class Songs():
     allData = {'Sweetener': {
