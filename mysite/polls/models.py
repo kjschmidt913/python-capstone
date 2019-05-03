@@ -2,9 +2,7 @@ from django.db import models
 
 
 class InspoImg():
-    imageNames = ['kingcake.jpg',
-                  'desk.jpg',
-                  'hiker.jpg',
+    imageNames = ['hiker.jpg',
                   'maxresdefault.jpg']
 
 

@@ -1,0 +1,14 @@
+.lyrics {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+
+.fixed-width{
+    width: 100%;
+}
