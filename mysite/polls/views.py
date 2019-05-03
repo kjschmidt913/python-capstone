@@ -20,6 +20,9 @@ def index(request):
     lyricIndex = randomIndex(len(Songs.allData[albumPick][songPick]) - 2)
     context = {
         'Lyric_One': Songs.allData[albumPick][songPick][lyricIndex] ,
-        'Lyric_Two' : Songs.allData[albumPick][songPick][lyricIndex + 1]
+        'Lyric_Two' : Songs.allData[albumPick][songPick][lyricIndex + 1],
+        'Album' : albumPick,
+        'Song' : songPick
+
     }
     return HttpResponse(template.render(context, request))
