@@ -1,7 +1,11 @@
 from django.db import models
 
+
 class InspoImg():
-    imageNames = ['kingcake.jpg']
+    imageNames = ['kingcake.jpg',
+                  'desk.jpg',
+                  'hiker.jpg',
+                  'maxresdefault.jpg']
 
 
 class Songs():
