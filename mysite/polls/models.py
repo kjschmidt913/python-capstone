@@ -369,7 +369,53 @@ class Songs():
                       'Back to you, back to you, back to you',
                       'I go back to you, back to you, back to you everytime'
                       ],
-        # 'breathin': 'lyrics here',
+        'breathin': ['Some days, things just take way too much of my energy',
+                     'I look up and the whole room\'s spinning',
+                     'You take my cares away',
+                     'I can so over-complicate, people tell me to medicate',
+
+                     'Feel my blood runnin\', swear the sky\'s fallin\'',
+                     'How do I know if this shit\'s fabricated?, mmm',
+                     'Time goes by and I can\'t control my mind',
+                     'Don\'t know what else to try, but you tell me every time',
+
+                     'Just keep breathin\' and breathin\' and breathin\' and breathin\'',
+                     'And oh, I gotta keep, keep on breathin\'',
+                     'Just keep breathin\' and breathin\' and breathin\' and breathin\'',
+                     'And oh, I gotta keep, keep on breathin\', mmm',
+
+                     'Sometimes it\'s hard to find, find my way up into the clouds',
+                     'Tune it out, they can be so loud',
+                     'You remind me of a time when things weren\'t so complicated',
+                     'All I need is to see your face',
+
+                     'Feel my blood runnin\', swear the sky\'s fallin\'',
+                     'How do I know if this shit\'s fabricated?, mmm',
+                     'Time goes by and I can\'t control my mind',
+                     'Don\'t know what else to try, but you tell me every time',
+
+                     'Just keep breathin\' and breathin\' and breathin\' and breathin\'',
+                     'And oh, I gotta keep, keep on breathin\'',
+                     'Just keep breathin\' and breathin\' and breathin\' and breathin\'',
+                     'And oh, I gotta keep, keep on breathin\', mmm',
+
+                     'My, my air',
+                     'My, my air',
+                     'My, my air, my air',
+                     'My, my air',
+                     'My, my air',
+                     'My, my air, yeah',
+
+                     'Just keep breathin\' and breathin\' and breathin\' and breathin\'',
+                     'And oh, I gotta keep, keep on breathin\'',
+                     'Just keep breathin\' and breathin\' and breathin\' and breathin\'',
+                     'And oh, I gotta keep, keep on breathin\', mmm',
+
+                     'Feel my blood runnin\', swear the sky\'s fallin\'',
+                     'How do I know if this shit\'s fabricated?, mmm',
+                     'Time goes by and I can\'t control my mind',
+                     'Don\'t know what else to try, but you tell me every time'
+                     ],
         # 'no tears left to cry': 'lyrics here',
         # 'borderline': 'lyrics here',
         # 'goodnight n go': 'lryics here',
